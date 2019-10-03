@@ -188,8 +188,12 @@
     <script>
         let url = "https://api.particle.io/v1/devices/dddddd/playMessage"
         function playMessage(){
-            let deviceID = prompt("Enter device Id")
-            let accessToken = prompt("Enter access token")
+            // let deviceID = prompt("Enter device Id")
+            // let accessToken = prompt("Enter access token")
+
+            let deviceID = "2e0037000347353138383138"
+            let accessToken = "54e509627a7f239bb0843d243064dbcdd513caad"
+            
             url = url.replace("dddddd",deviceID)
             let message = document.getElementById("message").value
             let xhttp = new XMLHttpRequest()
