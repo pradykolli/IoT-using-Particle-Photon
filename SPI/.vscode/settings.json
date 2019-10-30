@@ -5,7 +5,7 @@
     "files.associations": {
         "*.ino": "cpp"
     },
-    "particle.targetDevice": "mini",
-    "particle.firmwareVersion": "1.2.1",
+    "particle.targetDevice": "minitwo",
+    "particle.firmwareVersion": "1.3.1",
     "particle.targetPlatform": "photon"
 }
